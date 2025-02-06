@@ -9,6 +9,7 @@
 2. **Install dependencies**:
    ```
    npm install
+   npx playwright install winldd 
    ```
 
 3. **Run the tests**:
@@ -22,4 +23,5 @@
   
 - **DashboardPage Class**: Contains methods to verify the visibility of the dashboard after a successful login.
 
-- **Test Script**: Automates the login process by navigating to the login page, entering credentials, clicking the login button, and verifying that the dashboard is displayed.
+- **Test Script**: Automates the login process 
+-  navigating to the login page, entering  valid and invalid credentials, clicking the login button, and verifying that the dashboard is displayed for successfull login. 

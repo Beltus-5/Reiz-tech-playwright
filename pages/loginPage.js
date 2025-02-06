@@ -29,9 +29,8 @@ class LoginPage {
   async getErrorFieldMessage() {
     return await this.page.textContent(this.errorFieldMessage);
   }
-  async isLoginSuccessful() {
-    await this.page.waitForURL("**/dashboard/index"); // Ensure the URL changes upon successful login
-  }
+ 
+ 
 }
 
 module.exports = { LoginPage };
